@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:switch="http://schemas.android.com/apk/res-auto"
+    >
+
+    <org.jraf.android.backport.switchwidget.Switch
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/light"
+        android:id="@+id/switch_a"
+        />
+    
+    <org.jraf.android.backport.switchwidget.Switch
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/custom"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        switch:textOff="@string/right"
+        switch:textOn="@string/left"
+        android:id="@+id/switch_b"
+        />    
+    
+    
+    <org.jraf.android.backport.switchwidget.Switch
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disabled"
+        android:enabled="false"
+        
+        
+        android:id="@+id/switch_c"
+        />
+    
+    <ImageView 
+        android:src="@drawable/light_bulb_off"
+        android:id="@+id/light_bulb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/light_bulb"
+        />
+        
+
+</LinearLayout>

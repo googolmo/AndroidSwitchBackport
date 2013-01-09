@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ThemeBlack" parent="@android:Theme.Holo">
+        <item name="switchStyle">@style/Widget.Holo.CompoundButton.Switch</item>
+    </style>
+
+    <style name="ThemeLight" parent="@android:Theme.Holo.Light">
+        <item name="switchStyle">@style/Widget.Holo.Light.CompoundButton.Switch</item>
+    </style>
+</resources>
